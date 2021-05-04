@@ -1,21 +1,21 @@
 import { useState } from "react";
 import "./styles.css";
 export default function App() {
-  const [data, setData] = useState(1);
+  const [count, setCount] = useState(0);
   return (
     <div className="App">
-      <div>{data}</div>
+      <div>{count}</div>
       <button
         onClick={() => {
-          setData(data + 1);
+          setCount(count + 1);
         }}
       >
         increment
       </button>
       <button
-        disabled={data === 0}
+        disabled={count === 0}
         onClick={() => {
-          setData(data - 1);
+          setCount(count - 1);
         }}
       >
         decrement
