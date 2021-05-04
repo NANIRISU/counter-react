@@ -1,19 +1,9 @@
-<<<<<<< Codesandbox
 import { useState } from "react";
-=======
 import "./styles.css";
->>>>>>> GitHub
-import "./styles.css";
-
 export default function App() {
-<<<<<<< Codesandbox
   const [data, setData] = useState(1);
-=======
-  return (
->>>>>>> GitHub
   return (
     <div className="App">
-<<<<<<< Codesandbox
       <div>{data}</div>
       <button
         onClick={() => {
@@ -33,31 +23,3 @@ export default function App() {
     </div>
   );
 }
-
-=======
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
->>>>>>> GitHub
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-      <h3>helllllo</h3>
-    </div>
-  );
